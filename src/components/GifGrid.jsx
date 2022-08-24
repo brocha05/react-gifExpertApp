@@ -7,7 +7,7 @@ export const GifGrid = ({ category }) => {
     
     return (
         <>
-            <h3>{ category }</h3>
+            <h3>Results from { category }</h3>
             {isLoading ? <h3>Cargando...</h3> : null}
             <div className="card-grid">
                 { images.map( (image) => {
