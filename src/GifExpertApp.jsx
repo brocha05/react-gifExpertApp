@@ -9,7 +9,7 @@ export const GifExpertApp = () => {
     setCategory( [value, ...category] )
   }
 
-  console.log("Hi world")
+  console.log("Hi wrld")
   return (
     <>
       <h1>GifExpertApp</h1>
